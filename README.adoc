@@ -1,0 +1,21 @@
+= PiPhyTimeTracker
+
+The Pi-Phy-Time-Tracker is a physical time tracker based on  the Raspberry Pi Zero that makes it easy to log working hours  for various tasks and projects.
+By turning the cube you can easily switch between the individual 
+tasks, if you put the cube aside you call it a day.
+
+== Components
+
+The PiPhyTimeTracker consists of a Raspberry Pi Zero, 
+an RFID reader and an e-ink touch display. You also 
+need the python software from this repository.
+
+* https://www.raspberrypi.com/products/raspberry-pi-zero-w/[Raspberry Pi Zero W]
+* https://www.az-delivery.de/products/rfid-set[AZ-Delivery RFID RC522 Reader]
+* https://www.welectron.com/Waveshare-20716-213inch-Touch-e-Paper-HAT-with-case[Waveshare 20716 2.13inch Touch e-Paper HAT]
+
+== Setup
+
+$ sudo pip3 install smbus
+
+=== Developer Setup
